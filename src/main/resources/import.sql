@@ -3,3 +3,8 @@ INSERT INTO book(name, author) VALUES ('Margaret Atwood','The Testaments');
 INSERT INTO book(name, author) VALUES ('Jokha Alharthi','Celestial Bodies');
 INSERT INTO book(name, author) VALUES ('Vasdev Mohi','Cheque book');
 INSERT INTO book(name, author) VALUES ('Richard Powers','The Overstory');
+INSERT INTO book(name, author) VALUES ('The Red Sari','Javier Moro');
+INSERT INTO book(name, author) VALUES ('The History of Tom Jones, a Foundling','Henry Fielding');
+INSERT INTO book(name, author) VALUES ('Pride and Prejudice','Jane Austen');
+INSERT INTO book(name, author) VALUES ('The Red and the Black','Stendhal');
+INSERT INTO book(name, author) VALUES ('Le Père Goriot','Honoré de Balzac');

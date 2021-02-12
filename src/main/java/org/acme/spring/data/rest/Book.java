@@ -20,10 +20,6 @@ public class Book {
     @NotBlank(message = "Color may not be blank")
     private String author;
 
-    @ManyToOne
-    @JoinColumn(name = "library_id")
-    private Library library;
-
     public Book(){
     }
 
@@ -54,13 +50,5 @@ public class Book {
 
     public void setAuthor(String author) {
         this.author = author;
-    }
-
-    public Library getLibrary() {
-        return library;
-    }
-
-    public void setLibrary(Library library) {
-        this.library = library;
     }
 }
